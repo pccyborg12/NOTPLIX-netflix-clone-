@@ -184,15 +184,18 @@ body{
 .box .box1{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
+    margin-top: 45px;  
 }
 .box a:hover {
     transition: transform .3s;
     transform-style: linear;
-    -ms-transform: scale(1.4); 
-    -webkit-transform: scale(3);   
+    -ms-transform: scale(1.8); 
+    -webkit-transform: scale(5);   
     transform: scale(1.4);  
-    margin-bottom: 30px;
-    margin-right: 50px;
+    position:relative;
+    z-index: 1;
+    /* margin-bottom: 30px;
+    margin-right: 50px; */
 }
 a:hover .box{
     margin-left: -20px;
@@ -206,9 +209,7 @@ a:hover .box{
 }
 .box img:hover{
     filter: grayscale(0) ;
-    margin: 0px 25px 20px 25px; 
     transform: scale(1.1);
-     margin-top: 45px; 
     box-shadow: 1px 4px 22px 0px #FF0000;
 
 
